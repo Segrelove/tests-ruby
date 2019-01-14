@@ -2,17 +2,26 @@ def add(a, b)
     return (a + b)
 end
 
-def substract(a, b)
+def subtract(a, b)
     return (a - b)
 end
 
-def sum (eq)
-    eq=[]
+def sum(array)
+    sum = 0
+    result = 0
+    if array.length > 0 then
+      array.each do |item|
+        sum += item
+      end
+      result = sum
+    end
+    return result
 end
 
-def multiply 
-
+def multiply(a,b)
+    return a*b
 end
+
 
 def power 
 

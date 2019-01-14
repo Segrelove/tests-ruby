@@ -23,6 +23,11 @@ def multiply(a,b)
 end
 
 
-def power 
-
+def power(a, b)
+    return (a ** b)
 end
+
+def factorial(n)
+   return (1..n).inject(:*) || 1
+end 
+

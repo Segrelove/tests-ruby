@@ -17,3 +17,23 @@ end
 def reverse_upcase_noLTA(eq)
     return eq.reverse.upcase.delete "LTAlta"
 end
+
+def array_42(eq)
+    if eq.include?(42)
+        return true
+    else 
+        return false
+    end
+end
+
+def magic_array(arr)
+    result = arr.flatten.sort.map do |x|
+        x *= 2  
+    end 
+    result2 = result.reject! {|x| x%3 == 0 }
+    return result2.uniq.sort
+
+end
+
+    
+

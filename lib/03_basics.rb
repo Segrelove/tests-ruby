@@ -32,7 +32,6 @@ def magic_array(arr)
     end 
     result2 = result.reject! {|x| x%3 == 0 }
     return result2.uniq.sort
-
 end
 
     

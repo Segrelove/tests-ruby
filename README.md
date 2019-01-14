@@ -1,3 +1,7 @@
+# Repository Pair Programming :
+## - Maxime Le Segretain
+## - Robinson Dubois
+
 Small exercices in Ruby -- RSpec 3 Edition
 ==========
 
